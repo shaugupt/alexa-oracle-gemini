@@ -1,0 +1,28 @@
+# Node
+node_modules/
+package-lock.json
+
+# ASK CLI local config
+.ask/
+ask-resources.json
+
+# Backups with potentially embedded keys
+lambda/indexbackup*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+
+# Environment / secrets
+.env
+.env.*

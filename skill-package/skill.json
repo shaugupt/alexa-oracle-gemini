@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "interfaces": [],
+        "locales": {},
+        "regions": {}
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-IN": {
+          "description": "Turn your Echo into a smart AI assistant. Ask anything and get intelligent answers powered by Google Gemini.",
+          "examplePhrases": [
+            "Alexa open the oracle",
+            "tell me about quantum computing",
+            "tell me more"
+          ],
+          "keywords": [
+            "AI",
+            "Gemini",
+            "assistant",
+            "smart",
+            "oracle"
+          ],
+          "name": "The Oracle - AI Assistant",
+          "summary": "Ask anything and get smart AI-powered answers via Google Gemini."
+        }
+      },
+      "testingInstructions": "1. Say 'Alexa, open the oracle'. 2. Ask any question. 3. Say 'tell me more' for follow-ups."
+    }
+  }
+}

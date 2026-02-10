@@ -1,0 +1,89 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "AskGeminiIntent",
+          "samples": [
+            "tell me {query}",
+            "tell me about {query}",
+            "what is {query}",
+            "what\u0027s {query}",
+            "what are {query}",
+            "who is {query}",
+            "who was {query}",
+            "where is {query}",
+            "when did {query}",
+            "when was {query}",
+            "why is {query}",
+            "why do {query}",
+            "why does {query}",
+            "how do I {query}",
+            "how does {query}",
+            "how do {query}",
+            "how is {query}",
+            "how can I {query}",
+            "explain {query}",
+            "describe {query}",
+            "define {query}",
+            "namaste {query}",
+            "I want to know {query}",
+            "I want to know about {query}",
+            "can you tell me {query}",
+            "do you know {query}",
+            "help me with {query}",
+            "help me understand {query}",
+            "what do you think about {query}",
+            "talk about {query}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FollowUpIntent",
+          "samples": [
+            "tell me more",
+            "go on",
+            "continue",
+            "elaborate",
+            "more details",
+            "explain more",
+            "keep going",
+            "what else",
+            "and then",
+            "go deeper",
+            "more please",
+            "can you elaborate"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "the oracle"
+    }
+  }
+}
